@@ -20,7 +20,7 @@
   <PropertyGroup>
     <Authors>Calrom Ltd</Authors>
     <InformationalVersion>1.0.0</InformationalVersion>
-    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)SpeckFlow.RetryCore.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)SpecFlow.RetryCore.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Nullable>disable</Nullable>
     <WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>

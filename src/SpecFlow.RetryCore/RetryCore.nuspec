@@ -1,8 +1,8 @@
 ﻿<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>SpecFlow.RetryCore</id>
+    <id>CalromSpecFlowRetryCore</id>
     <version>1.0.0</version>
-    <title>SpecFlow.RetryCore</title>
+    <title>CalromSpecFlowRetryCore</title>
     <authors>Julio C. Tejero</authors>
     <owners>Calrom Ltd.</owners>
     <description>Retry for SpecFlow</description>

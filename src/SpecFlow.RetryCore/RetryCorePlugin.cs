@@ -1,15 +1,24 @@
-﻿using SpecFlow.RetryCore;
+﻿// -----------------------------------------------------------------------
+// <copyright file="RetryCorePlugin.cs" company="Calrom Ltd.">
+// Under MIT license
+// </copyright>
+// -----------------------------------------------------------------------
+
+using CalromSpecFlowRetryCore;
 using TechTalk.SpecFlow.Generator.Plugins;
 using TechTalk.SpecFlow.Generator.UnitTestConverter;
 using TechTalk.SpecFlow.Infrastructure;
 using TechTalk.SpecFlow.UnitTestProvider;
 
-[assembly: GeneratorPlugin(typeof(GeneratorPlugin))]
-namespace SpecFlow.RetryCore
+[assembly: GeneratorPlugin(typeof(RetryCorePlugin))]
+
+namespace CalromSpecFlowRetryCore
 {
-    public class GeneratorPlugin : IGeneratorPlugin
+    public class RetryCorePlugin : IGeneratorPlugin
     {
-        public void Initialize(GeneratorPluginEvents generatorPluginEvents, GeneratorPluginParameters generatorPluginParameters,
+        public void Initialize(
+            GeneratorPluginEvents generatorPluginEvents,
+            GeneratorPluginParameters generatorPluginParameters,
             UnitTestProviderConfiguration unitTestProviderConfiguration)
         {
             generatorPluginEvents.RegisterDependencies += (sender, args) =>
@@ -22,4 +31,3 @@ namespace SpecFlow.RetryCore
         }
     }
 }
-

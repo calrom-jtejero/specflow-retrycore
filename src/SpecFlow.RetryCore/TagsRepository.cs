@@ -1,4 +1,10 @@
-﻿namespace SpecFlow.RetryCore
+﻿// -----------------------------------------------------------------------
+// <copyright file="TagsRepository.cs" company="Calrom Ltd.">
+// Under MIT license
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace CalromSpecFlowRetryCore
 {
     internal static class TagsRepository
     {

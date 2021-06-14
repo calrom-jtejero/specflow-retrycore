@@ -1,6 +1,6 @@
 # Contributing
 
-GitHub is the tool used for managing reviews and pull requests of SpecFlow.RetryCore (SpecFlow.RetryCore for .NET).
+GitHub is the tool used for managing reviews and pull requests of CalromSpecFlowRetryCore (SpecFlow.RetryCore for .NET).
 
 ## Issues and Pull Requests
 
