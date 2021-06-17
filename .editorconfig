@@ -17,3 +17,9 @@ dotnet_diagnostic.CA2227.severity = none
 
 # CA5364: Do Not Use Deprecated Security Protocols
 dotnet_diagnostic.CA5364.severity = silent
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
